@@ -1,4 +1,43 @@
 body{
     margin: 0;
     box-sizing: border-box;
+    /* background-color: green; */
+}
+
+/* Header */
+#header-top{
+    width: 100%;
+    height: 100px;
+    background-color: orchid;
+}
+
+#title{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 100px; 
+}
+
+
+/* Main */
+#container{
+    height: 700px;
+    width: 900px;
+    margin: 40px auto;
+    background-color: orchid;
+    border-radius: 10px;
+}
+
+#header-bottom{
+    height: 100px;
+    background-color: blue;
+    border-radius: 10px 10px 0 0;
+}
+
+#linea{
+    margin: 0;
+    border: 1px solid white;
+}
+
+.but-choice{
+    border-radius: 5px;
 }
