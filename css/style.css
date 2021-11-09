@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0;
     box-sizing: border-box;
     /* background-color: green; */
@@ -18,6 +18,38 @@ body{
 }
 
 
+#header-bottom{
+    height: 80px;
+    border-radius: 10px 10px 0 0;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+/* Button */
+.link{
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+#fisrt{
+    background-color: red;
+    border: 1px solid lightskyblue;
+    color: white;
+}
+
+#second{
+    color: darkgray;
+    border: 1px solid darkgray;
+}
+
+#linea{
+    margin: 0;
+    border: 1px solid white;
+}
+
+
 /* Main */
 #container{
     height: 700px;
@@ -27,17 +59,4 @@ body{
     border-radius: 10px;
 }
 
-#header-bottom{
-    height: 100px;
-    background-color: blue;
-    border-radius: 10px 10px 0 0;
-}
 
-#linea{
-    margin: 0;
-    border: 1px solid white;
-}
-
-.but-choice{
-    border-radius: 5px;
-}
